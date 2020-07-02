@@ -4,11 +4,19 @@
   padding: 0;
 }
 
+header {
+
+  height: 400px;
+  padding: 20px 0;
+  background-color: #0C325A;
+}
+
 /* header top */
 .header_top {
-  height: 50px;
-  background-color: yellow;
+  position: relative;
+  width: 90%;
   line-height: 50px;
+  margin: auto;
 }
 
 .header_top::after {
@@ -26,16 +34,15 @@
 /* logo */
 .header_logo {
   float: left;
-  height: 50px;
   width: 20%;
-  text-align: center;
 }
 /* /logo */
 
 /* navigation bar left */
 .header_top_nav_left {
   float: left;
-  width: 40%
+  width: 40%;
+  text-align: left;
 }
 
 .header_top_nav_left a {
@@ -43,14 +50,15 @@
   text-decoration: none;
   color: #fff;
   font-size: 15px;
-  padding: 0 5px;
+  padding: 0 4px;
 }
 /* /navigation bar left */
 
 /* navigation bar right */
 .header_top_nav_right {
-  float: right;
+  float: left;
   width: 40%;
+  text-align: right;
 }
 
 .header_top_nav_right ul > li {
@@ -87,3 +95,30 @@
 }
 
 /* /navigation bar right */
+
+/* title and button */
+.title .button_green {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  line-height: 50px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border-color: #fff;
+}
+
+h1 {
+  color: #fff;
+  padding: 20px 5px;
+}
+
+.title {
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  width: 90%;
+  line-height: 50px;
+  margin: auto;
+}
+/* /title and button */

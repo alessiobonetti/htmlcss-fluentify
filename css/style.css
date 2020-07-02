@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header_top {
+  height: 40px;
+  background-color: yellow;
+}
+
+.header_top::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header_logo {
+  float: left;
+  width: 20%;
+}
+
+.header_top_nav_left {
+  float: left;
+  width: 50%
+}
+
+.header_top_nav_right {
+  float: right;
+  width: 30%;
+}
+
+.header_top li {
+  display: inline-block;
+  list-style: none;
+}
